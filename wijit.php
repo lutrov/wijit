@@ -2,13 +2,12 @@
 
 /*
 Plugin Name: Wijit
-Description: A custom text widget to show arbitrary text or HTML that can be individually styled with it's own class. Why this plugin name? Wijit is just a phonetic representation of the word "widget", that's all.
+Description: A custom text widget to show arbitrary text or HTML that can be individually styled. Why this plugin name? Wijit is just a phonetic representation of the word "widget", that's all.
+Plugin URI: https://github.com/lutrov/wijit
 Version: 1.3
 Author: Ivan Lutrov
 Author URI: http://lutrov.com/
 */
-
-defined('ABSPATH') || die('Ahem.');
 
 //
 // Custom text widget class.
@@ -43,7 +42,6 @@ class wijit_text_widget extends wp_widget {
 				if (function_exists('markdown')) {
 					$content = markdown($content);
 				}
-				$content = do_shortcode($content);
 				echo $content;
 			}
 			echo '</div>';
@@ -86,7 +84,7 @@ if (function_exists('wijit_load_text_widget') == false) {
 	function wijit_load_text_widget() {
 		register_widget('wijit_text_widget');
 	}
-	add_action('widgets_init', 'wijit_load_text_widget', 1);
+	add_action('widgets_init', 'wijit_load_text_widget');
 }
 
 ?>
