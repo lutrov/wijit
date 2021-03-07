@@ -2,11 +2,26 @@
 
 /*
 Plugin Name: Wijit
+Version: 1.3
 Description: A custom text widget to show arbitrary text or HTML that can be individually styled. Why this plugin name? Wijit is just a phonetic representation of the word "widget", that's all.
 Plugin URI: https://github.com/lutrov/wijit
-Version: 1.3
+Copyright: 2016, Ivan Lutrov
 Author: Ivan Lutrov
-Author URI: http://lutrov.com/
+Author URI: http://lutrov.com
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, write to the Free Software Foundation, Inc., 51 Franklin
+Street, Fifth Floor, Boston, MA 02110-1301, USA. Also add information on how to
+contact you by electronic and paper mail.
 */
 
 //
