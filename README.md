@@ -1,5 +1,7 @@
 # Wijit
 
+__Note: This plugin is probably not compatible with Wordpress 5.__
+
 A custom text widget to show arbitrary text or HTML that can be individually styled. Why this plugin name? Wijit is just a phonetic representation of the word "widget", that's all.
 
 ## Copyright and License
